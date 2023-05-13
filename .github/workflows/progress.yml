@@ -1,7 +1,7 @@
 name: Daily Progress
 on:
   schedule:
-    - cron: "* * * * *" 
+    - cron: "38 4 * * *" 
 jobs:
   update:
     runs-on: ubuntu-latest
