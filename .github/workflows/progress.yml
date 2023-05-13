@@ -1,9 +1,9 @@
 name: Daily Progress
 on:
   push:
-    branches:[ main ]
+    branches: [ main ]
   schedule:
-    - cron: "14 5 * * *"
+    - cron: "16 5 * * *"
   workflow_dispatch:
 jobs:
   update:
