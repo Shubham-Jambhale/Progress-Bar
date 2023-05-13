@@ -1,3 +1,3 @@
 # Progress-Bar
 
-Progress:
+Progress: [#######-------------] 36.00%
