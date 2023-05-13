@@ -26,7 +26,7 @@ jobs:
           done
           PROGRESS_BAR="${PROGRESS_BAR}] ${PROGRESS}%"
           # Replace the progress bar in the README file
-          sed -i "s/^Progress.*$/Progress: ${PROGRESS_BAR}/" ../README.md
+          sed -i "s/^Progress.*$/Progress: ${PROGRESS_BAR}/" ../../README.md
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
