@@ -39,6 +39,7 @@ jobs:
           git config --local user.name "Shubham-Jambhale"
           git commit -a -m "Daily update" || true
           git push origin HEAD:main
+          echo "Streak: $((streak + 1))" >> README.md
       - name: Add code to README
         run: |
           echo "Today's date: $(date +%d-%m-%Y)" >> README.md
